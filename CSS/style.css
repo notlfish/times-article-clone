@@ -2,11 +2,76 @@ body {
   background-color: white;
 }
 
-.embedded-video {
+.text-section {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#img-alan-guth {
+.article-figure {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
 }
 
-#img-bicep2 {
+img {
+  width: 100%;
+  height: auto;
+}
+
+.img-caption {
+  witdh: 70%;
+  margin-left: 0;
+}
+
+.article-video {
+  width: 100%;
+  height: 380px;
+}
+
+#theory-of-inflation {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#theory-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.theory-grid-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.theory-grid-item {
+  display: flex;
+  flex-direction: column;
+  flex: initial;
+  width: 173px;
+}
+
+.grid-img {
+  display: block;
+  width: 80%:
+}
+
+.main-aside {
+  right: 28px;
+  display: flex;
+  flex-direction: column;
+  max-width: 18%;
+  margin: auto 0;
+}
+
+
+.main-aside-pick {
+  display: flex;
+}
+
+.aside-pick-image {
+  width: 75px;
+  height: 75px;
 }
