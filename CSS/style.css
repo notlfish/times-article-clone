@@ -2,6 +2,84 @@ body {
   background-color: white;
 }
 
+/* Navbar */
+#navigation-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+  width: 100%;
+  border-bottom: 1px #e2e2e2 solid;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-contents: space between;
+}
+
+.nav-icon {
+  height: 23px;
+  margin: 0 10px;
+  width: auto;
+}
+
+#nav-logo {
+  height: 26px;
+  width: auto;
+}
+
+.blue-button {
+  border-radius: 3px;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  margin: 0 3px;
+}
+
+/* Header */
+.page-header {
+  width: 50%;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-title {
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+#share-buttons {
+  display: flex;
+  justify-content: left;
+}
+
+.share-button-background {
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 5px;
+  height: 27px;
+  width: 27px;
+}
+
+/* Main Article */
 .text-section {
   max-width: 50%;
   margin-left: auto;
@@ -55,17 +133,17 @@ img {
 
 .grid-img {
   display: block;
-  width: 80%:
+  width: 80%;
 }
 
 .main-aside {
   right: 28px;
+  float: right;
   display: flex;
   flex-direction: column;
-  max-width: 18%;
-  margin: auto 0;
+  width: 280px;
+  margin-top: 350px;
 }
-
 
 .main-aside-pick {
   display: flex;
@@ -74,4 +152,25 @@ img {
 .aside-pick-image {
   width: 75px;
   height: 75px;
+}
+
+/* Thanks/Subscribe message*/
+#thanks-message {
+  text-align: center;
+}
+
+#hr-bot {
+  border-bottom: 1px rgb(204, 204, 204) solid;
+  width: 78px;
+  margin: 0px auto 18px;
+}
+
+#hr-top {
+  border-top: 1px rgb(204, 204, 204) solid;
+  width: 78px;
+  margin: 18px auto 0px;
+}
+
+#suscribe {
+  color: rgb(50, 104, 145);
 }
