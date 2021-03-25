@@ -397,9 +397,13 @@ img {
   width: 100%;
 }
 
-#more-in-section-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.more-in-section-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blank-entry {
+  width: 30%;
 }
 
 .more-in-section-entry {
