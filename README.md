@@ -12,7 +12,8 @@
 
 ## Getting Started
 
-Open index.html in an web browser to see the content of the project.
+Open index.html in an web browser to see the content of the project
+Or look at a live version at https://notlfish.github.io/times-article-clone/
 
 ## Authors
 
