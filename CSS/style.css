@@ -334,6 +334,11 @@ img {
   margin-bottom: 15px;
 }
 
+.main-aside-pick:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .aside-pick-image {
   width: 75px;
   height: 75px;
