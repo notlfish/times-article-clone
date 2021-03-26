@@ -222,6 +222,7 @@ img {
   text-align: center;
   width: 80px;
   margin: auto;
+  white-space: nowrap;
 }
 
 .signup-button:hover {
