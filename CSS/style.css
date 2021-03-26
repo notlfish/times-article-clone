@@ -251,7 +251,7 @@ img {
   line-height: 30px;
   vertical-align: baseline;
   letter-spacing: normal;
-  word-spacing:0;
+  word-spacing: 0;
   font-weight: 700;
 }
 
@@ -447,7 +447,7 @@ img {
 
 .left-caption {
   color: rgb(153, 153, 153);
-  font-family: nyt-cheltenham, georgia, "times new roman";
+  font-family: nyt-cheltenham, georgia, "times new roman", serif;
   font-size: 10px;
   line-height: 12.3px;
   vertical-align: baseline;
