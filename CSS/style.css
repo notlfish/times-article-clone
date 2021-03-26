@@ -309,21 +309,44 @@ img {
 }
 
 .main-aside {
-  margin-top: 350px;
-  right: 28px;
+  position: relative;
+  top: 350px;
+  right: 50px;
   float: right;
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 240px;
+}
+
+.main-aside-title {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  vertical-align: baseline;
+  letter-spacing: 0.28px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: 1px #e2e2e2 solid;
 }
 
 .main-aside-pick {
   display: flex;
+  margin-bottom: 15px;
 }
 
 .aside-pick-image {
   width: 75px;
   height: 75px;
+}
+
+.aside-pick-text {
+  margin: 15px 5px 5px 15px;
+  font-family: nyt-cheltenham-small, georgia, "times new roman", serif;
+  font-size: 14px;
+  line-height: 17px;
+  vertical-align: baseline;
+  font-weight: 500;
+  color: #333333;
 }
 
 /* Thanks/Subscribe message */
