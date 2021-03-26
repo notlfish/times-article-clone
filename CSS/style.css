@@ -219,6 +219,7 @@ img {
   font-style: normal;
   font-weight: 700;
   height: 32px;
+  text-justify: center;
   text-align: center;
   width: 80px;
   margin: auto;
